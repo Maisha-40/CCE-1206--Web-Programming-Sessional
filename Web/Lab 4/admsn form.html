@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Admission Form</title>
+  </head>
+  <body bgcolor="lightblue">
+    <center><h1><u><font color="blue">University Admission Form</font></u></h1></center>
+<dd><label for="firstName"><b>First Name:</b></label>
+      <input type="text" id="firstName" name="firstName" required /><br /><br />
+<label for="lastName"><b>Last Name:</b></label>
+      <input type="text" id="lastName" name="lastName" required /><br /><br />
+<label for="father'sname"><b>Father's Name:</b></label>
+      <input type="text" id="father'sname" name="father'sname" required /><br /><br />
+<label for="mother'sname"><b>Mother's Name:</b></label>
+      <input type="text" id="mother'sname" name="mother'sname" required /><br/><br/>
+
+<label for="dob"><b>Date of Birth:</b></label>
+      <input type="date" id="dob" name="dob" required /><br /><br />
+      <label for="religion"><b>Religion:</b></label>
+      <input type="religion" id="religion" name="religon" required /><br /><br />
+      <label for="gender"><b>Gender:</b></label>
+        <select id="gender" name="gender" required>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option></select
+        ><br /><br/>
+      <label for="Blood Group"><b>Blood Group:</b></label>
+        <select id="Blood Group" name="Blood Group" required>
+          <option>Select</option>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="O+">O+</option>
+          <option value="O-">O-</option>
+          <option value="AB+">AB+</option>
+          <option value="AB-">AB-</option>
+</select>
+        <br /><br/>
+       <label for="Marital Status"><b>Marital Status:</b></label>
+        <select name="marital_status" id="marital_status">
+    <option value="">Select</option>
+    <option value="Single"><b>Single</b></option>
+    <option value="Married"><b>Married</b></option>
+    </select><br/><br/>
+<label for="present address"><b>Present Address:</b></label><br />
+      <textarea
+        id="presentaddress"
+        name="presentaddress"
+        rows="2"
+        cols="40"
+        required></textarea>
+        <br /><br />
+<label><b>City:</b></label>
+<input type="text"><br/><br/>
+<label><b>Post code:</b></label>
+<input type="number"> <br/><br/>
+        <label> <b>Phone Number :</b> </label>
+      <input type="text" name="country code" value="+880" size="2" />
+      <input type="text" name="phone Number" size="10" /> <br />
+    <br/>
+<label for="email"><b>Email:</b></label>
+      <input type="email" id="email" name="email" required /><br /><br /></dd>
+ 
+<dd><label for="course"><b>Select Course:</b></label>
+          <select id="course" name="course" required>
+         <option value="">Select</option>
+            <option value="computerScience&engineering">Computer Science & Engineering</option>
+            <option value="computer&communicationengineering">Computer & Communication Engineering</option>
+            <option value="electrical&electronicengineering">Electrical & Electronics Engineering</option>
+            <option value="mechanicalEngineering">
+              Mechanical Engineering</option>
+ <option value="businessManagement">Business Management</option>
+      <option value="Law">Law</option>
+              <option value="english">English</option>
+    </select><br/><br/></dd>
+   <dd><label><b>Admission Type:</b></label><br>
+<select>
+    <option>Select</option>
+    <option>International Student</option>  
+      <option>Domestic Transfer Student</option>
+    <option>Change of Status</option>
+</select><br><br>
+<lable><b>Copies of your High school record</b></lable><br>
+<input type="file"><br><br>
+<lable><b>Official Transcripts from all college/Universities attended </b></lable><br>
+    <input type="file"><br><br></dd> 
+<label>
+           <dd><input type="checkbox" name="declaration" required > I hereby
+            declare that the above information is true and correct.
+          </label><br/><br/></dd> 
+        <dd><input type="Submit">
+ <input type="Reset"></dd>
+    </form>   
+</body>
+</html>

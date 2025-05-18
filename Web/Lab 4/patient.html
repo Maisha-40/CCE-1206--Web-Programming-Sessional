@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patient Admitting Form</title>
+  </head>
+   <body bgcolor="lightyellow">
+    <center><h1><u><font color="blue">Patient Admitting Form</font></u></h1></center>
+    <dd><label for="firstName"><b>First Name:</b></label>
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          required
+        /><br /><br /></dd>
+    <dd><label for="lastName"><b>Last Name:</b></label>
+        <input type="text" id="lastName" name="lastName" required /><br /><br />
+        <dd><label for="Guardian Name"><b>Guardian Name:</b></label>
+        <input type="text" id="Guardian Name" name="Guardian Name" required /><br /><br />
+<label for="dob"><b>Date of Birth:</b></label>
+        <input type="date" id="dob" name="dob" required /><br /><br /></dd>
+<dd><label for="gender"><b>Gender:</b></label>
+        <select id="gender" name="gender" required>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option></select
+        ><br /><br/></dd>
+        <dd><label for="Blood Group"><b>Blood Group:</b></label>
+        <select id="Blood Group" name="Blood Group" required>
+          <option value="">Select</option>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="O+">O+</option>
+          <option value="O-">O-</option>
+          <option value="AB+">AB+</option>
+          <option value="AB-">AB-</option>
+</select
+        ><br /><br/></dd>
+       <dd><label for="Marital Status"><b>Marital Status:</b></label>
+        <select name="marital_status" id="marital_status">
+    <option value="">Select</option>
+    <option value="Single">Single</option>
+    <option value="Married">Married</option>
+    <option value="Widowed">Widowed</option>
+    <option value="Divorced">Divorced</option>
+</select><br/><br/></dd>
+        <dd><label> <b>Phone Number :</b> </label>
+      <input type="text" name="country code" value="+880" size="2" />
+      <input type="text" name="phone Number" size="10" /> <br />
+    <br/></dd>
+    <dd><label><b>Guardian Phone Number: </b></label>
+      <input type="text" name="country code" value="+880" size="2" />
+      <input type="text" name=" Guardian phone Number" size="10" /> <br />
+    <br/></dd>
+        <dd><label for="email"><b>Email Address:</b></label>
+<input type="email" id="email" name="email" /><br /><br />
+      </fieldset></dd>
+       <dd><label for="address"><b>Address:</label><br />
+        <textarea
+          id="address"
+          name="address"
+          rows="4"
+          cols="50"
+          required
+        ></textarea
+        ><br /><br /></dd>
+<dd><label for="city">City:</label>
+        <input type="text" id="city" name="city" required /><br /><br />
+ <label for="medicalCondition"
+          >Medical Condition/Reason for Admission:</label
+        ><br />
+        <textarea
+          id="medicalCondition"
+          name="medicalCondition"
+          rows="4"
+          cols="50"
+          required
+        ></textarea
+        ><br /><br /></dd>
+<dd><label for="allergies">Allergies:</label><br />
+        <textarea id="allergies" name="allergies" rows="3" cols="50"></textarea
+        ><br /><br /></dd>
+<dd><label for="existingConditions">Existing Medical Conditions:</label
+        ><br />
+        <textarea
+          id="existingConditions"
+          name="existingConditions"
+          rows="4"
+          cols="50"
+        ></textarea
+        ><br /><br /></dd>
+
+        <dd><label for="medications">Current Medications:</label><br />
+        <textarea
+          id="medications"
+          name="medications"
+          rows="3"
+          cols="50"
+        ></textarea
+        ><br /><br />
+      </fieldset></dd>
+ <dd><legend><h3><font color="red">Emergency Contact Information:</font></h3></legend></dd>
+<dd><label for="emergencyName">Name:</label>
+        <input
+          type="text"
+          id="emergencyName"
+          name="emergencyName"
+          required
+        /><br /><br /></dd>
+<dd><label for="emergencyPhone">Phone Number:</label>
+        <input
+          type="tel"
+          id="emergencyPhone"
+          name="emergencyPhone"
+          required
+        /><br /><br /></dd>
+<dd><label for="relationship">Relationship:</label>
+        <input
+          type="text"
+          id="relationship"
+          name="relationship"
+          required
+        /><br /><br />
+      </dd>
+      <dd><input type="file"></dd><br>
+      <dd><input type="Submit">
+ <input type="Reset"></dd>
+      
+  </body>
+</html>

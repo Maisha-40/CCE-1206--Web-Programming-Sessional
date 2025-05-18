@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "aside main article"
+    "footer footer article";
+  width: 50%;
+  height: 50vh;
+}
+header {
+  grid-area: header;
+  background-color: lightgreen;
+  width: 73.3%;
+}
+aside {
+  grid-area: aside;
+  background-color: blue;
+  height: 120%;
+}
+main {
+  grid-area: main;
+  background-color: purple;
+  height: 120%;
+}
+article {
+  grid-area: article;
+  background-color: hsl(0, 73%, 51%);
+  width: 150px;
+}
+footer {
+  grid-area: footer;
+  background-color: rgb(223, 219, 5);
+  height: 100%;
+}

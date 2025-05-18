@@ -1,0 +1,14 @@
+var myName="MAISHA";
+var yourName=prompt("What is your name..?");
+var firstPart=myName.slice(0,2); 
+var secondPart=myName.slice(2, 4);
+var thirdPart=myName.slice(4, 6);
+var count=myName.length;
+var nameUPPER=myName.toUpperCase();
+var nameLOWER=myName.toLowerCase();
+alert("First Part: "+firstPart); 
+alert("Second Part: "+secondPart);
+alert("Third Part: "+thirdPart);
+alert("Length: "+count);
+alert("Uppercase: "+nameUPPER);
+alert("Lowercase: "+nameLOWER);

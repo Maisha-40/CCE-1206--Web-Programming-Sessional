@@ -1,0 +1,40 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.nav {
+  background-color: hsl(258, 92%, 86%);
+  width: 20%;
+  display: flex;
+  padding: 1em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.header,
+.footer {
+  background-color: hsl(268, 42%, 66%);
+  height: 20vh;
+  display: flex;
+  padding: 1em;
+}
+
+.article {
+  background-color: hsl(240, 57%, 97%);
+  flex: 1;
+  display: flex;
+  padding: 1em;
+}

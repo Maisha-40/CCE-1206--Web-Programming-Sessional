@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.container {
+  display: flex;
+  width: 50%;
+  height: 300px;
+  gap: 4px;
+}
+.column {
+  flex: 1;
+  height: 300%;
+}
+.column1 {
+  background-color: hsl(158, 89%, 74%);
+}
+.column2 {
+  background-color: #f56f7a;
+}
+.column3 {
+  background-color: hsl(42, 95%, 63%);
+}
+.column4 {
+  background-color: rgb(122, 235, 193);
+}
